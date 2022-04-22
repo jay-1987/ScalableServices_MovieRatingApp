@@ -12,6 +12,8 @@ pip install mysql-connector-python
 #to run application 
 python app.py 
 
+#configure db details in a seperate config file or provide in main file. 
+
 #or create a virtual env and run from there
 python -m venv new-env
 \new-env\Scripts\Activate.ps1
