@@ -1,0 +1,20 @@
+<table border =1>
+    <thead>
+        <tr>
+          <th>MemberID</th>
+          <th>MemberName</th>
+          <th>MovieRating</th>
+          <th>MovieName</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for member in ratingdetails %}
+            <tr>
+                <td> {{member[0]}} </td>
+                <td> {{member[1]}} </td>
+                <td> {{member[2]}} </td>
+                <td> {{member[3]}} </td>
+            </tr>
+        {% endfor %}
+    </tbody>        
+</table>
